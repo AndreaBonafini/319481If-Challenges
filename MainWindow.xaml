@@ -5,13 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_319481IfChallenges"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="700" Width="700">
     <StackPanel>
         <Label x:Name="lblNumber">Enter a number</Label>
         <TextBox x:Name="txtNumber"></TextBox>
         <TextBox x:Name="txtOutput"/>
         <TextBox x:Name="txtNumber2"></TextBox>
         <Button x:Name="btnNumber" Content="Click for informations" Click="btnNumber_Click"></Button>
-        
+        <TextBox x:Name="txtInput">Enter a letter</TextBox>
+        <Button x:Name="btnCheck" Click="btnCheck_Click">Check</Button>
+        <Label x:Name="lblOutput"></Label>
+        <TextBox x:Name="txtYear"></TextBox>
+        <Button x:Name="btnLeapYear" Click="btnLeapYear_Click">Leap year button</Button>
+        <Label x:Name="lblOutput1"></Label>
+        <TextBox x:Name="txtCharacter"/>
+        <Button x:Name="Character" Click="Character_Click" Content="Check Character"/>
+        <Label x:Name="lblCharacter"></Label>
     </StackPanel>
 </Window>
